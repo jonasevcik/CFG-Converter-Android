@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CFG Converter</string>
+	<string name="hintGrammar">S-&gt; a | \\e</string>
+	<string-array name="convertArray">
+		<item>Odstranit nenormované symboly</item>
+		<item>Odstranit nedosažitelné symboly</item>
+		<item>Redukovat</item>
+		<item>Odstranit epsilon kroky</item>
+		<item>Odstranit jednoduchá pravidla</item>
+		<item>Převést na vlastní CFG</item>
+		<item>Převést do CNF</item>
+		<item>Odstranit levou rekurzi</item>
+		<item>Převést do GNF</item>
+	</string-array>
+	<string name="okButton">OK</string>
+	<string name="arrow">-&gt;</string>
+	<string name="clearButton">Smazat</string>
+</resources>

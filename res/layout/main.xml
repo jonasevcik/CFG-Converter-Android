@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="5dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip">
+
+	<EditText android:id="@+id/entry"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:hint="@string/hintGrammar"
+    	android:gravity="top|left"
+    	android:layout_weight="1.1" />
+    	
+	<Spinner android:id="@+id/spinner"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="3" />
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="3">
+	
+		<Button android:id="@+id/ok"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+    		android:text="@string/okButton"
+    		android:layout_weight="4"
+    		android:onClick="convert" />
+    		
+    	<Button android:id="@+id/arrow"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+    		android:text="@string/arrow"
+    		android:layout_weight="5"
+    		android:onClick="addArrow" />
+    		
+    	<Button android:id="@+id/line"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+    		android:text="|"
+    		android:layout_weight="5"
+    		android:onClick="addLine" />
+    		
+    	<Button android:id="@+id/eps"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+    		android:text="\\e"
+    		android:layout_weight="5"
+    		android:onClick="addEps" />
+
+		<Button android:id="@+id/clear"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+    		android:text="@string/clearButton"
+    		android:layout_weight="4"
+    		android:onClick="clear" />
+    		
+    </LinearLayout>
+
+</LinearLayout>
